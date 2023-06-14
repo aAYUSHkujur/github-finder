@@ -1,8 +1,11 @@
+import UserResults from "../Components/users/UserResults";
+
 const Home = () => {
   return (
-    <div>
-      <h1 className="text-6xl">Welcom</h1>
-    </div>
+    <>
+      {/* SEARCH COMPONENT */}
+      <UserResults />
+    </>
   );
 };
 
