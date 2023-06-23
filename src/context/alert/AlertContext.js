@@ -1,4 +1,3 @@
-import React from "react";
 import { createContext, useReducer } from "react";
 import AlertReducer from "./AlertReducer";
 
@@ -25,3 +24,5 @@ export const AlertProvider = ({ children }) => {
     </AlertContext.Provider>
   );
 };
+
+export default AlertContext;
